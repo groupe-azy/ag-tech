@@ -104,10 +104,23 @@
             </div>
             <div class="right_service">
                 <div class="right_service_text">
-                        <h3>NOTRE PROFIL</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam quis.</p>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+                        <h3>NOTRE PROFIL</h3> <br>
+                    <p>Développeurnweb fort de 3 ans d'expérience dans la conception, le développement et la réalisation et du SEO (optimisation pour les moteur de recherche) pour générer du trafic et faire interegir les utilisateurs. Capable de mener un projet efficacement et de satisfaire le consommateur avec des sites attirants et simples d'utilisation.
+                    </p>
+                    <p>EXPERIENCE PROFESSIONNELLES <br>
+                        **Développeur Web** <br>
+                        . Brief client, design de site, élaboration de planning <br>
+                        . Gestion d'un projet web avec 3 développeurs <br>
+                        . Développement des concepts, controle du déroulement du projet tout en assurant les étapes de livraison<br>
+                    </p>
+                    <p>
+                        COMPENTENCE PROFESSIONNELLES <br>
+                        . Programation avancée, compenences en design <br>
+                        . Gestion de contenu web <br>
+                        . Développement de Ladign page <br>
+                        . Management de projet <br>
+                        . Solide compétences collaboratives <br>
+                    </p>
                     <div class="border_bar"></div>
                 </div>
             </div>

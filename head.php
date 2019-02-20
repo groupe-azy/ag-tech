@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+        <link rel="icon" href="sary/ag.jpg" type="image/x-icon" />
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>AGtech</title>
 
@@ -49,7 +49,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">(logo)AGtech</a>
+                            <img src="sary/ag.jpg" width="100" height="70">
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
