@@ -5,7 +5,7 @@
         <section class="who_we_are_area">
             <div class="container">
                 <div class="row who_we_inner">
-                    <div class="col-md-5">
+                    <div class="col-md-4 col-sm-5">
                         <div class="who_we_left_content">
                                 <h2>QUI NOUS SOMME</h2>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
@@ -13,9 +13,9 @@
                             <div class="border_bar"></div>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-4 col-sm-2">
                         <div class="who_we_image">
-                            <img src="sary/h.jpg" height="500" width="650">
+                            <img src="sary/h.jpg">
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="latest_news_item">
                             <div class="news_image">
-                                <img src="sary/r.jpg" height="300px" width="300px">
+                                <img src="sary/fetra.png" height="300px" width="300px">
                             </div>
                             <br>
                             <div class="news_content">
@@ -153,7 +153,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="latest_news_item">
                             <div class="news_image">
-                                <img src="sary/hh.jpg" height="300px" width="300px">
+                                <img src="sary/hery.png" height="300px" width="300px">
                             </div>
                             <br>
                             <div class="news_content">
@@ -165,7 +165,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="latest_news_item">
                             <div class="news_image">
-                                <img src="sary/r.jpg" height="300px" width="300px">
+                                <img src="sary/manankasina.jpg" height="300px" width="300px">
                             </div>
                             <br>
                             <div class="news_content">
@@ -182,24 +182,24 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="latest_news_item">
                             <div class="news_image">
-                                <img src="sary/r.jpg" height="300px" width="300px">
+                                <img src="sary/mika.jpg" height="300px" width="300px">
                             </div>
                             <br>
                             <div class="news_content">
                                <h5>Mika RAKOTOMAHEFA</h5><br>
-                               <h5>Business Developper</h5>
+                               <h5>DG et Representant du groupe</h5>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="latest_news_item">
                             <div class="news_image">
-                                <img src="sary/hh.jpg" height="300px" width="300px">
+                                <img src="sary/toky.jpg" height="300px" width="300px">
                             </div>
                             <br>
                             <div class="news_content">
-                               <h5>commervial 1</h5><br>
-                               <h5>commercial 1</h5>
+                               <h5>Tokiniaina MINOHASINA</h5><br>
+                               <h5>Business Devevoppeur</h5>
                             </div>
                         </div>
                     </div>
@@ -220,3 +220,36 @@
         </section>
         <!--================End Latest News Area =================-->
     <?php include ('footer.php'); ?>
+
+
+    <!-- =======================responsive============================-->
+
+    <style type="text/css">
+
+        @media all and (max-width: 1440px){
+            .who_we_image img{
+                 width: 580px;
+                 height: 430px;
+                 margin-left: 100px;
+    }
+}
+  
+        @media all and (max-width: 1024px){
+            .who_we_image img{
+                 width: 480px;
+                 height: 500px;
+                 padding-top: 50px;
+    }
+}
+        @media all and (max-width: 768px){
+            .who_we_image img{
+                 width: 300px;
+                 height: 400px;
+                 padding-top: 100px;
+    }
+}
+
+
+
+
+    </style>

@@ -16,6 +16,7 @@
         
         <!-- Bootstrap -->
         <link href="hery/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
         
         <!-- Rev slider css -->
         <link href="css/settings.css" rel="stylesheet">
