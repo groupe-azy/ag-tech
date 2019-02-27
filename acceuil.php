@@ -243,9 +243,17 @@
 }
         @media all and (max-width: 768px){
             .who_we_image img{
-                 width: 300px;
+                 width: 320px;
                  height: 400px;
                  padding-top: 100px;
+    }
+}
+       @media all and (max-width: 425px){
+            .who_we_image img{
+                 width: 400px;
+                 height: 400px;
+                 padding-top: 100px;
+                 margin-left: 0px;
     }
 }
 
