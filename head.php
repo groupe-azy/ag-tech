@@ -30,7 +30,7 @@
 <body>
 </head>
 
-  <header class="main_header_area transparent_menu">
+  <header class="main_header_area transparent_menu" style="width:100%;">
             <div class="header_top_area">
                 <div class="container">
                     <div class="pull-left">
@@ -56,13 +56,22 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <br><br>
                         <style type="text/css">
-                            p1{
-                                margin-left: 400px;
+                            .statut1{
+                                position:absolute;
+                                margin-top:-10%;
+                                margin-left: 30%;
                                 color: red;
+                                font-size: 20px;
+                            }
+                            .logo2
+                            {
+                                position:absolute;
+                                top:75px;
+                                color:red;
                             }
                         </style>
-                       <p1><font size="5px"> DEVELOPPEUR FREELANCE</font></p>
-                        <p><font size="3px"> technologie de fiture</font></p><br>
+                       <p class= "statut1"> DEVELOPPEUR FREELANCE</p>
+                        <p class="logo2"><font size="3px"> technologie du future</font></p><br>
                     </nav>
                 </div>
             </div>
@@ -70,4 +79,48 @@
         </body>
         <!--================Header Area =================-->
 
-        
+        <style type="text/css">
+        @media (min-width:1025) and (max-width: 1440px){
+            .main_menu_area, .container, .navbar, .statut1
+            {
+                display: inline-block;
+                margin-left:400px;
+                font-size: 5px;
+               color:red;
+            }
+          
+            .transparent_menu
+            {
+                width: 1030px;
+            }
+        }
+        @media (min-width:768px) and (max-width: 1024px){
+            .statut1
+            {
+                position : absolute;
+                margin-top:-4%;
+                position:absolute;
+                margin-left: 30%;
+                color: red;
+                font-size: 35px;
+            }
+            .transparent_menu{
+                width: 830px;
+            }
+        }
+        @media all and (max-width: 767px){
+            .statut1
+            {
+                position : absolute;
+                margin-top:-5%;
+                margin-left: 10%;
+                color: red;
+                font-size: 20px;
+            }
+            .transparent_menu
+            {
+                width: 670px;
+                margin-left: 0px;
+            }
+        }
+        </style>

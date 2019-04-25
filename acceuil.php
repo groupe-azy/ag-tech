@@ -33,9 +33,9 @@
                                 <img src="img/icon/s-icon-hover-1.png" alt="">
                             </div> -->
                             <a href="#"><h2>PHP</h2></a>
-                            <h4>framwork:</h4>
+                            <h4>framework:</h4>
                             	<li>symfony</li>
-                            	<li>code ignitaire</li>
+                            	<li>codeigniter</li>
                         </div>
                     </div>
                     <div class="service_item">
@@ -45,7 +45,7 @@
                                 <img src="img/icon/s-icon-hover-2.png" alt="">
                             </div>
  -->                            <a href="#"><h2>Ruby</h2></a>
- 								<h4>framwork:</h4>
+ 								<h4>framework:</h4>
  								<li>ruby on rails</li>
  								<br>
                         </div>
@@ -70,7 +70,7 @@
                                 <img src="img/icon/s-icon-hover-2.png" alt="">
                             </div>
  -->                            <a href="#"><h2>C#</h2></a>
-                                <h4>framwork:</h4>
+                                <h4>framework:</h4>
                                 <li>.Net</li>
                                 <br>
                         </div>
@@ -226,35 +226,150 @@
 
     <style type="text/css">
 
-        @media all and (max-width: 1440px){
-            .who_we_image img{
+        @media (min-width: 1025px) and (max-width: 1440px){
+
+            .who_we_image img
+            {
                  width: 580px;
                  height: 430px;
                  margin-left: 100px;
-    }
+             }
+    
 }
   
-        @media all and (max-width: 1024px){
-            .who_we_image img{
+        @media (min-width: 769px) and (max-width: 1024px){
+            .who_we_image img
+            {
                  width: 480px;
                  height: 500px;
                  padding-top: 50px;
+            }
+            .service_item_inner
+            {
+                width:317px;
+                height:183px;
+                border-radius:20px;
+                margin-left:2px;
+                margin-right: 2px;
+            }
+            .right_service_text
+            {
+                margin-left:24px;
+            }
+        }
+        @media (min-width: 426px) and (max-width: 768px){
+            .who_we_image img
+            {
+                 width: 400px;
+                 height:420px;
+                 border-radius:15px;
+                 padding-top: 25px;
+                 padding-bottom: 25px;
+                 position:absolute;
+                 margin-left:75px;
+        }
+        .left_service
+        {
+            margin-left: 60px;
+        }
+    .service_item_inner
+    {
+        border-radius:20px;
+        margin-left:1px;
+        margin-right:1px;
     }
-}
-        @media all and (max-width: 768px){
-            .who_we_image img{
-                 width: 320px;
-                 height: 400px;
-                 padding-top: 100px;
+     .latest_news_area
+    {
+         width: 100%;
+         border-radius:15px;
+         padding-top: 25px;
+         padding-bottom:25px;
+         margin-left:0px;
+        padding-left:0px;
     }
+
+    .latest_news_item
+    {
+        width:320px;
+        margin-left:-190px;
+    }
+    .container
+    {
+        width:100%;
+    }
+    .latest_news_inner
+    {
+        margin-left:-150px;
+    }
+    .news_content h5
+    {
+        width:600px;
+        margin-left:-10px;
+    }
+    .news_image
+    {
+        width:300px;
+        margin-left:130px;
+    }
+
+
 }
        @media all and (max-width: 425px){
-            .who_we_image img{
-                 width: 400px;
-                 height: 400px;
-                 padding-top: 100px;
-                 margin-left: 0px;
+            .who_we_image img
+            {
+                 width: 100%;
+                 border-radius:15px;
+                 padding-top: 25px;
+                 padding-bottom:25px;
+                margin-left:0px;
+                padding-left:0px;
     }
+    .service_item_inner
+    {
+        border-radius:20px;
+        margin-left:1px;
+        margin-right:1px;
+    }
+     .latest_news_area
+    {
+         width: 100%;
+         border-radius:15px;
+         padding-top: 25px;
+         padding-bottom:25px;
+         margin-left:0px;
+        padding-left:0px;
+    }
+    .latest_news_item
+    {
+        width:320px;
+        margin-left:-190px;
+    }
+    .container
+    {
+        width:100%;
+    }
+    .latest_news_inner
+    {
+        margin-left:-150px;
+    }
+    .news_content
+    {
+        display:block;
+        left:100px;/*eto isika zao */
+        width:200%;
+    }
+    .news_content h5
+    {
+        width:600px;
+        margin-left:-10px;
+        border-radius:20px;
+    }
+    .news_image
+    {
+        width:300px;
+        margin-left:130px;
+    }
+    
 }
 
 
